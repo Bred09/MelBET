@@ -292,7 +292,7 @@
 <div class="box-modal box-modal_big">
     <div class="box-modal__content">
 
-<form action="home.html" id="logIn" method="post" role="form" novalidate="novalidate" data-bitwarden-watching="1"><input name="__RequestVerificationToken" type="hidden" value="IBDstF__Ji-z8N3nypwYG1gp52yRCwJK4AZPxGNsOz4ZGtIMkOr15RumlNqUz9zT3f_-OYnZ5Z3bI3kVvSlU3kPMHSMMSCq0D_-nlqyXlQ81">            <div class="form form_auth">
+<form id="logIn" method="post" role="form" novalidate="novalidate" data-bitwarden-watching="1"><input name="__RequestVerificationToken" type="hidden" value="IBDstF__Ji-z8N3nypwYG1gp52yRCwJK4AZPxGNsOz4ZGtIMkOr15RumlNqUz9zT3f_-OYnZ5Z3bI3kVvSlU3kPMHSMMSCq0D_-nlqyXlQ81">            <div class="form form_auth">
                 <div class="form__item">
                     <div class="input-con input-con_ico-over fa-user">
                         <input class="go1 input-con__input input" data-val="true" data-val-required="Требуется поле Логин." id="name" name="UserName" placeholder="Имя пользователя" type="text">
@@ -309,9 +309,11 @@
                     
                 </div>
                 <div class="form__footer">
-                    <button type="submit" class="go btn btn_primary btn_small btn_block btn_upcase btn_bold">
-                        Вход
-                    </button>
+                    <a href="home.html">
+                        <button type="button" class="go btn btn_primary btn_small btn_block btn_upcase btn_bold">
+                            Вход
+                        </button>
+                    </a>
                 </div>
             </div>
 </form>    </div>
